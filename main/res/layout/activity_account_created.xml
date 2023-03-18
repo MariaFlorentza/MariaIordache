@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9CFED"
+    tools:context=".AccountCreatedActivity">
+
+    <TextView
+        android:id="@+id/tv_created"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Contul tau a fost creat cu succes!"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="380dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_created"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Inpoi la pagina principala"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:textSize="18dp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
